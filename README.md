@@ -3,7 +3,7 @@
 JavaScript Drag and Drop dailog jquery plugin
 
 Video Demo:
-[![](https://photos.app.goo.gl/WEUE21c4m8w5DD3D7)](https://www.youtube.com/watch?v=t_7uJO_nFoA)
+[![](https://www.dropbox.com/s/ls4cqo4mqhzkz0t/1.png?dl=0)](https://www.youtube.com/watch?v=t_7uJO_nFoA)
 
 /*
     krDailog Version 1.0
