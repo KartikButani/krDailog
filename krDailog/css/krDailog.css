@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* Pannel */
+
+.kpannel-con {
+    position: fixed;
+    top:10px;
+    right: 10px;
+
+    cursor: pointer;
+}
+.kpannel-wrp {
+    height: inherit;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    overflow: auto;
+    background: #fff;
+    box-shadow: 0px 0px 5px #777;
+}
+.kpannel-title-con
+{
+    background: #efefef;
+    padding: 10px 0px;
+    padding-right: 5px;
+    position: fixed;
+    top: 10px;
+    right:10px;
+    width: 280px;
+    box-shadow: 0px 0px 5px #777;
+    cursor: pointer;
+}
+.kpannel-title-con> div {
+    float: left;
+    width: 10%;
+    text-align: right;
+}
+.kpannel-title-con> div:first-child {
+    width: 79%;
+    padding-left: 2%;
+    text-align: left;
+}

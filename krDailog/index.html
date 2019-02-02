@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>krubtani</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/krDailog.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/krDailog.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#model').krDailog({
+                title: "Model 1",
+                closeButton: true,
+                width: "200px",
+                height: "300px",
+                top: "10px",
+                show: true,
+                right:"1%",
+                collapseButton: false,
+            });
+
+            $('#model-mymodel').krDailog({
+                title: "Model 2",
+                closeButton: true,
+                width: "200px",
+                height: "300px",
+                show: false,
+                top: "10px",
+                left:"1%",
+            });
+            $('#openss').click(function(){
+                $('#model').krDailog({open:true});
+            });
+            $('#openssm2').click(function () {
+                $('#model-mymodel').krDailog({open:true});
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="model">
+        <p>dummy</p>
+        <p>dummy</p>
+        <p>dummy</p><p>dummy</p>
+        <p>dummy</p>
+        <p>dummy</p>
+        <p>dummy</p>
+        <p>dummy</p>
+        <p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p><p>dummy</p>
+
+
+    </div>
+    <div id="model-mymodel">
+        This is model 2
+        <input type="button" class="btn btn-default" value="hi" onclick="alert('hi');">
+    </div>
+
+
+    <style type="text/css">
+        .center-block {
+            width:250px;
+            padding:10px;
+        }
+    </style>
+    <div class="container" style="margin-top: 10%;">
+        <div class="row">
+            <div class="center-block">
+                <input type="button" id="openss" class="btn btn-default" value="Open model1">
+                <input type="button" id="openssm2" class="btn btn-default" value="Open model2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
