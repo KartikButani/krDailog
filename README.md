@@ -37,18 +37,22 @@ Require to use this function
 
  - second thing is to implement our method
     <script>
+    
         $(document).ready(function(){
             $('#kBoxDemo').kBox({
                             title: "kartik", // to give the title
                             closeButton: true,
                         });
         });
+        
     </script>
 
  - You may require to click and open any dialog box then use the following.
 
      <input type="button" name="kbtn" id="kbtn" value="Open Model 1" />
+     
      <script>
+    
          $(document).ready(function(){
                     $('#kBoxDemo').kBox({
                                     title: "kartik", // to give the title
