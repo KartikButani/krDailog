@@ -11,11 +11,17 @@ JavaScript Drag and Drop dailog jquery plugin
 
 
 Require to use this function
+
     - bootstrap.css new version
+    
     - bootstrap.js new version
+    
     - jquery.js new version
+    
     - jquery-ui.js new version
+    
     - glyphicons font by bootstrap
+    
 
 # you can use a new version of all and also use min file also
 
