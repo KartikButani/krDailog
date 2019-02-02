@@ -37,18 +37,24 @@ Require to use this function
 # Basic
 
  - first, create div and assign an id like
-    <div id="kBoxDemo">
+ 
+    < div id="kBoxDemo" >
         // whatever content to display here and design you subsite.
-    </div>
+    < /div >
 
  - second thing is to implement our method
     <script>
     
         $(document).ready(function(){
+        
             $('#kBoxDemo').kBox({
+            
                             title: "kartik", // to give the title
+                            
                             closeButton: true,
+                            
                         });
+                        
         });
         
     </script>
@@ -60,15 +66,23 @@ Require to use this function
      <script>
     
          $(document).ready(function(){
+         
                     $('#kBoxDemo').kBox({
+                    
                                     title: "kartik", // to give the title
+                                    
                                     closeButton: true,
+                                    
                                     show: false,
+                                    
                     });
 
                     $('#kbtn').click(function(){
+                    
                         $('#kBoxDemo').kBox({open:true}); / / this is also use to close the pannel and re open it.
+                        
                     });
+                    
          });
      </script>
 
